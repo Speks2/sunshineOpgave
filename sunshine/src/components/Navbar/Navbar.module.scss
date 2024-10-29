@@ -4,23 +4,33 @@
 
 //Header image
 header {
+    position: relative;
+    width: 100%;
+    height: 70vh; 
+    overflow: hidden;
+    
     h1 {
         font-family: "Licorice", serif;
         font-weight: 100;
         position: absolute;
-        text-align: center; 
-        font-size: 5rem;
-        bottom: 3rem;
-        right: 25%;
+        text-align: center;
+        font-size: clamp(2rem, 5vw, 5rem); 
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%); 
         color: #ffffff;
+        width: 100%;
+        padding: 0 clamp(1rem, 2vw, 2rem); 
     }
+    
     img {
         position: relative;
-        width: 100%;  
-        height: auto; 
-        display: block; 
-        margin: 0 auto; 
-        max-width: 2000px;
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin: 0 auto;
+        object-fit: cover;
+        object-position: center;
         filter: opacity(89%);
     }
 }
