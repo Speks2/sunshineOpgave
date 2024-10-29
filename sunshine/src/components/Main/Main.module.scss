@@ -19,3 +19,38 @@ $brownie: #7A4C20;
 body {
     background-color: $heaven;
 }
+
+.TextAndImages {
+  display: flex;
+  gap: 2rem; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 2rem;
+ 
+    div {
+        
+        h2 {
+            flex: 1;
+            width: 100%;
+            height: 100%;
+            padding: 1rem;
+            font-family: "Licorice", serif;
+            text-align: center;
+        }
+        p {
+            flex: 1;
+            width: 100%;
+            height: 100%;
+            padding: 1rem;
+            font-family: "Inika", serif;
+
+        } 
+        img {
+            border-radius: 10px;
+            flex: 1;
+            width: 100%;
+            height: 100%;
+        }
+    }
+   
+}
