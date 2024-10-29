@@ -9,7 +9,6 @@ export function Navbar() {
 
      <>
         <nav className={styles.Navbar}>
-        <div>MySite</div>
          <ul>
           <NavLink to={'/Products'}>
             Products
@@ -18,15 +17,16 @@ export function Navbar() {
             Home
           </NavLink>
           <NavLink to={'/Checkout'}>
-           Checkout
+           <img src="src/assets/icons8-cart-50.png" alt="cart" />
           </NavLink>
           <NavLink to={'/Login'}>
-            Login
+            <img src="src/assets/icons8-user-48.png" alt="user" />
           </NavLink>
          </ul>
         </nav>
         <header>
         <img src="/src/assets/Cofeee.jpg" alt="headerImage" />
+        <h1>We Love Coffee And all the people who make it</h1>
         </header>
      </>
     )
