@@ -1,5 +1,5 @@
 import styles from './Navbar.module.scss';
-
+import { NavLink } from 'react-router-dom';
 
 
 export function Navbar() {
@@ -11,9 +11,18 @@ export function Navbar() {
         <nav className={styles.Navbar}>
         <div>MySite</div>
          <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
+          <NavLink to={'/Products'}>
+            Products
+          </NavLink>
+          <NavLink to={'/'}>
+            Home
+          </NavLink>
+          <NavLink to={'/Checkout'}>
+           Checkout
+          </NavLink>
+          <NavLink to={'/Login'}>
+            Login
+          </NavLink>
          </ul>
         </nav>
         <header>
@@ -22,4 +31,3 @@ export function Navbar() {
      </>
     )
 }
-Nvarbar()

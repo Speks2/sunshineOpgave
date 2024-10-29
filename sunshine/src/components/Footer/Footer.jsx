@@ -2,7 +2,7 @@ import styles from './Footer.module.scss';
 
 
 
-export function Bottom() {
+export function Footer() {
 
     return (
 
@@ -28,7 +28,7 @@ export function Bottom() {
         </>
         )
 } 
-Bottom()
+
 
 
 

@@ -4,7 +4,7 @@ import styles from './API.module.scss';
 
 
 
-export function Top() {
+export function API() {
 
 
     return (
@@ -13,4 +13,3 @@ export function Top() {
         </>
     )
 }
-Top()

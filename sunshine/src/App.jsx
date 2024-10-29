@@ -1,23 +1,16 @@
 //Imports
-import { API } from './components/MyAPI/API';
 import { Main } from './components/Main/Main';
-import { Footer } from './components/Footer/Footer';
-import { Navbar } from './components/Navbar/Navbar';
 import { Checkout } from './Pages/Checkout';
 import { Login } from './Pages/Login';
 import { Products } from './Pages/Products';
 import { NoPage } from './Pages/NoPage';
+import { Layout } from './Pages/Layout';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
 function App() {
   
   return (
-    <div className={styles.Routing}>
-      <API />
-      <Main />
-      <Footer />
-      <Navbar />
-
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
@@ -29,7 +22,6 @@ function App() {
         </Route>    
       </Routes>
     </BrowserRouter>
-    </div>
   );
 }
 

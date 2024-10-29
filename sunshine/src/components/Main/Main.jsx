@@ -3,7 +3,7 @@ import styles from './Main.module.scss';
 
 
 
-export function Middle() {
+export function Main() {
 
 
 
@@ -13,4 +13,3 @@ export function Middle() {
         </>
     )
 }
-Middle()
