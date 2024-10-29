@@ -1,4 +1,4 @@
-import styles from './Middle.module.scss';
+import styles from './Main.module.scss';
 
 
 
