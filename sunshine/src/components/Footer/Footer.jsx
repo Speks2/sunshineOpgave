@@ -8,7 +8,7 @@ export function Bottom() {
 
         <>
         <footer>
-            <div className={styles.FooterText}>
+            <div className={styles.Footer}>
              <div>
              <h2>Contact</h2>
              <p>Supercoffeeroad 223b92230 New Coffeland Phone: 22331122 Mail: coffeeland@info.com</p>
