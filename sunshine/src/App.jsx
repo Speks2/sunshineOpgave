@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch('https://your-api-url.com/api/products'); 
+        const response = await fetch('http://localhost:5173/products'); //My API and waiting for its response
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
