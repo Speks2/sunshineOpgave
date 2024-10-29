@@ -26,7 +26,8 @@ export function Navbar() {
         </nav>
         <header>
         <img src="/src/assets/Cofeee.jpg" alt="headerImage" />
-        <h1>We Love Coffee And all the people who make it</h1>
+        <h1>We Love Coffee 
+          And all the people who make it</h1>
         </header>
      </>
     )

@@ -5,8 +5,6 @@ import styles from './Main.module.scss';
 
 export function Main() {
 
-
-
     return (
         <>
         <container className={styles.TextAndImages}>
