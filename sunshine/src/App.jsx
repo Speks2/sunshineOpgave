@@ -36,9 +36,9 @@ function App() {
 
   return (
     <div className={styles.Products}>
-      <Top products={products} />
+      <Top />
       <Middle products={products} />
-      <Bottom products={products} />
+      <Bottom />
     </div>
   );
 }
