@@ -4,11 +4,9 @@ import { Main } from './components/Main/Main';
 import { Footer } from './components/Footer/Footer';
 import { Navbar } from './components/Navbar/Navbar';
 import { Checkout } from './Pages/Checkout';
-import { Checkout } from './Pages/Checkout';
 import { Login } from './Pages/Login';
 import { Products } from './Pages/Products';
 import { NoPage } from './Pages/NoPage';
-import styles from'../src/App.module.scss';
 
 
 function App() {

@@ -6,7 +6,15 @@
 
 
 .Footer {
+  background-color: V.$shadow;
+  color: #FFFFFF;
+   h2 {
+    display: grid;
+    grid-template-columns: 3fr, 1fr;
+   }
 
- background-color: V.$shadow;
- color: #FFFFFF;
+   p {
+    display: grid;
+    grid-template-columns: 3fr, 1fr;
+   }
 }
