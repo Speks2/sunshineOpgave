@@ -93,16 +93,17 @@ body {
 
 //Testimonies
 .Testimonies {
+    padding: 1rem;
     h2 {
         display: flex;
         justify-content: center;
         font-family: "Licorice", serif;
-            font-size: 5rem;
-            font-weight: 400;
+        font-size: 5rem;
+        font-weight: 400;
     }
     > div{
         display: grid;
-        gap: 1rem;
+        gap: 2rem;
         max-width: 900px;
         margin: auto;
     }
@@ -110,6 +111,12 @@ body {
         margin: 0;
         padding: 0;
         list-style: none;
+    }
+    h3 {
+        text-align: center;
+    }
+    p {
+        text-align: center;
     }
 }
 
