@@ -9,6 +9,9 @@ export function Navbar() {
 
      <>
         <nav className={styles.Navbar}>
+          <div>
+          <img src="src/assets/icons8-coffee-50.png" alt="logo" />
+          </div>
          <ul>
           <NavLink to={'/Products'}>
             Products

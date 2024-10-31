@@ -56,5 +56,16 @@ nav {
         }
         
     }
+    div {
+        img {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            background-color: white;
+            border-radius: 1rem;
+            height: 9vh;
+            width: 5vw;
+        }
+    }
 }
 
