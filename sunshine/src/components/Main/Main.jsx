@@ -38,6 +38,29 @@ export function Main() {
            <button>Go to products</button>
         </article>
         </container>
+        
+        
+        <div className={styles.Testimonies}>
+         <h2>Testimonies</h2>
+         <div>
+         <ul>
+            <li><h3>John</h3></li>
+            <li><p>“Sunshine Coffee really deliveres a great product. I love their coffee and the guided flow is great...”</p></li>
+         </ul>
+         <ul>
+            <li><h3>Eva</h3></li>
+            <li><p>“Sunshine Coffee really deliveres a great product. I love their coffee and the guided flow is great...”</p></li>
+         </ul>
+         <ul>
+            <li><h3>Peter</h3></li>
+            <li><p>“Sunshine Coffee really deliveres a great product. I love their coffee and the guided flow is great...”</p></li>
+         </ul>
+         <ul>
+            <li><h3>Michelle</h3></li>
+            <li><p>“Sunshine Coffee really deliveres a great product. I love their coffee and the guided flow is great...”</p></li>
+         </ul>
+         </div>
+        </div>
 
         </>
     )
