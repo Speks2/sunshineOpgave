@@ -5,27 +5,24 @@
 
 
 
-.Footer {
+.FooterText {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
   background-color: V.$shadow;
   color: #FFFFFF;
   width: 100%; 
   height: auto; 
-  display: block; 
   margin: 0 auto;
-   
-   h2 {
-    flex: 1;
-            width: 100%;
-            height: 100%;
-            padding: 1rem;
-    font-family: "Inika", serif;
-   }
+  font-family: "Inika", serif;
 
-   p {
-    flex: 1;
-            width: 100%;
-            height: 100%;
-            padding: 1rem;
-    font-family: "Inika", serif;
-   }
+  ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+  }
+   
+  h3 {
+        padding: 1rem;
+  }
 }

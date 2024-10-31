@@ -11,7 +11,7 @@ header {
     
     h1 {
         font-family: "Licorice", serif;
-        font-weight: 100;
+        font-weight: 400;
         position: absolute;
         text-align: center;
         font-size: clamp(2rem, 5vw, 5rem); 
@@ -19,8 +19,6 @@ header {
         top: 50%;
         transform: translate(-50%, -50%); 
         color: #ffffff;
-        width: 100%;
-        padding: 0 clamp(1rem, 2vw, 2rem);
     }
     
     img {
