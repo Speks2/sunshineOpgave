@@ -58,13 +58,12 @@ nav {
     }
     div {
         img {
-            position: absolute;
+            position: inherit;
             display: flex;
-            justify-content: center;
+            justify-self: center;
             background-color: white;
             border-radius: 1rem;
-            height: 9vh;
-            width: 5vw;
+            max-width: 10vw;
         }
     }
 }

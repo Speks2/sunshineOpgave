@@ -1,4 +1,3 @@
-//Imports
 import { Main } from './components/Main/Main';
 import { Checkout } from './Pages/Checkout';
 import { Login } from './Pages/Login';
@@ -7,11 +6,9 @@ import { NoPage } from './Pages/NoPage';
 import { Layout } from './Pages/Layout';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-
 function App() {
-  
   return (
-      <BrowserRouter>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Main />} />

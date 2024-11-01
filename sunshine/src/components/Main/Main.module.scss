@@ -100,6 +100,8 @@ body {
         font-family: "Licorice", serif;
         font-size: 5rem;
         font-weight: 400;
+        padding: 1rem;
+        margin: 1rem;
     }
     > div{
         display: grid;
@@ -132,7 +134,7 @@ body {
 // MEDIA QUERIES
 @media (min-width: 900px){
     .Testimonies > div{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 // OVER 1200PX

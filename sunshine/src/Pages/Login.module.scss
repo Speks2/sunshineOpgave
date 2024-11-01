@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&family=Limelight&family=Linden+Hill:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Licorice&family=Limelight&family=Linden+Hill:ital@0;1&display=swap');
+
+
+.loginContainer {
+    max-width: 400px;
+    margin: 5rem auto;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: "Inika", serif;
+    color: #1f1f11;
+    h2 {
+      color: #1f1f11;
+      font-family: "Licorice", serif;
+      font-size: 6rem;
+      text-align: center;
+      font-weight: 400;
+      margin-bottom: 5rem;
+    }
+}
+
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    color: #1f1f11;
+    font-size: 14px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+
+    &:focus {
+        outline: none;
+        border-color: #007bff;
+        box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+    }
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.signUpBtn, 
+.submitBtn {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+}
+
+.signUpBtn {
+   border: 2px solid #1f1f11;
+   border-radius: 5px;
+   padding: 1rem;
+
+    &:hover {
+        background-color: #aa4a0a;
+    }
+}
+
+.submitBtn {
+    background-color: #1f1f11;
+    color: white;
+
+    &:hover {
+        background-color: #858585;
+    }
+}
